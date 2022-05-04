@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="hu">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="css/design.css">
+  <link href="css/nyomtatas.css" rel="stylesheet" media="print">
+  <title>Balatonberényi - Érdeklődés</title>
+</head>
+
+<body>
+  <header>
+    <h1>Balatonberény</h1>
+  </header>
+
+
+
+  <ul class="menubar hide-print">
+    <li><a href="index.html">Kezdőlap</a></li>
+    <li><a href="lehetosegek.html">Lehetőségek</a></li>
+    <li><a class="active" href="erdeklodes.html">Érdeklődés</a></li>
+    <li><a href="galeria.html">Galéria</a></li>
+  </ul>
+
+
+
+  <div class="container">
+    <form>
+      <label for="fname">Neved:</label><br>
+      <input type="text" id="fname" name="fname" placeholder="Minta János"><br>
+      <label for="lname">Email-cimed:</label><br>
+      <input type="text" id="lname" name="lname" placeholder="minta@gmail.com"><br><br>
+
+
+
+      <label for="fname">Hány fő érkezne? </label><br>
+      <input type="radio" id="1_fo" name="elso" value="1">
+      <label for="1_fo">1</label><br>
+      <input type="radio" id="2_fo" name="elso" value="2">
+      <label for="2_fo">2</label><br>
+      <input type="radio" id="3_fo" name="elso" value="3">
+      <label for="3_fo">3</label><br>
+      <input type="radio" id="4_fo" name="elso" value="4, vagy annál több">
+      <label for="4_fo">4, vagy annal tobb</label><br>
+      <br>
+
+      <label for="fname">Hány éjszakára maradnátok? </label><br>
+      <input type="radio" id="1_ejszaka" name="masodik" value="1">
+      <label for="1_ejszaka">1</label><br>
+      <input type="radio" id="2_ejszaka" name="masodik" value="2">
+      <label for="2_ejszaka">2</label><br>
+      <input type="radio" id="3_ejszaka" name="masodik" value="3">
+      <label for="3_ejszaka">3</label><br>
+      <input type="radio" id="4_ejszaka" name="masodik" value="4, vagy annál több">
+      <label for="4_ejszaka">4, vagy annal tobb</label><br>
+      <br>
+
+      <input type="checkbox" id="check" name="vehicle1" value="Nya">
+      <label for="check"> Érdekelnek a nyaralóval kapcsolatos legfrissebb információk?</label><br>
+      <br>
+      <label for="fname">Van egyéb kérdésed, észrevételed? </label><br>
+      <textarea maxlength="345" rows="4" cols="50" name="comment" placeholder="Ide írharod le..."></textarea>
+      <br>
+      <input class="my-button" type="submit" value="Submit">
+      <input class="my-button" type="reset" value="Reset">
+    </form>
+
+    <br>
+    <table class="tg">
+      <caption>Árak:
+        <details>
+          <summary>A táblázat tartalma</summary>
+          <p>A nyaraló bérlésének körülbelüli árai. Figyelembe véve hány fő érkezik, és hány éjszakát tereznek maradni
+          </p>
+        </details>
+      </caption>
+
+
+
+      <thead>
+        <tr>
+          <th>Éjszakák száma</th>
+          <th>Kis lakrész</th>
+          <th>Nagy lakrész</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>1</td>
+          <td>8 000 forint</td>
+          <td>15 000 forint</td>
+        </tr>
+        <tr>
+          <td>2</td>
+          <td>15 000 forint</td>
+          <td>27 000 forint</td>
+        </tr>
+        <tr>
+          <td>3</td>
+          <td>24 000 forint</td>
+          <td>40 000 forint</td>
+        </tr>
+        <tr>
+          <td>4, vagy annál több</td>
+          <td>33 000 forint-tól</td>
+          <td>55 000 forint-tól</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+
+
+  <p>Figyelem!</p>
+  <p>Az árak tákékozattó jellegűek, részletes tájékoztatásért kérlek tölsd ki az űrlapunkat. A nyaraló hamar betelik a
+    nyárra, így kérjük minnél elöbb jelezd igényeidet.</p>
+
+  <br>
+
+
+  <footer>
+    <div class="footer">
+      <p>
+        Sarmasági Csillag Ada <br>
+        Elte Informatikai Kar <br>
+        Webfejlesztés <br>
+        2021 tavasz
+      </p>
+    </div>
+  </footer>
+
+</body>
+
+</html>
